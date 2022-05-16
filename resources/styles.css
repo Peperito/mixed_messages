@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+}
+
+p{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+}
+
+h2{
+    color: seashell;
+}
+
+
+.grid {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    border: 2px black;
+  }
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.grid .button{
+    
+    background-color: midnightblue;
+    border: solid 3px;
+    border-radius: 4px;
+    color: white;
+    padding: 30px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    position: absolute;
+    top: 80%;
+    left: 45%;
+}
+
+.button:hover{
+    opacity: 0.6;
+    cursor: pointer;;
+}
